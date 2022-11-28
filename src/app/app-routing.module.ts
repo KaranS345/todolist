@@ -4,8 +4,8 @@ import { AboutComponentComponent } from './Mycomponents/about-component/about-co
 import { TodosComponent } from './Mycomponents/todos/todos.component';
 
 const routes: Routes = [
-  { path: '', component: TodosComponent},
-  { path: 'about', component: AboutComponentComponent}
+  { path: '/', component: TodosComponent},
+  { path: '/about', component: AboutComponentComponent}
 ];
 
 @NgModule({
